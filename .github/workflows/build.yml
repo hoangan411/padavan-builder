@@ -4,7 +4,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: registry.gitlab.com/hadzhioglu/padavan-ng
+    container: registry.https://gitlab.com/hoangan411/padavan-ng-2
     defaults: { run: { shell: bash } }
     env:
       BUILDER_DEPENDENCIES: false
